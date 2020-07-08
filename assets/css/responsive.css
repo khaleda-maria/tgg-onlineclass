@@ -1,0 +1,177 @@
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+  .nav>li>a{
+  	padding: 15px 5px;
+  	font-size: 14px;
+  }
+
+  .sldr-cnt-text h1{
+  	font-size: 35px;
+  } 
+  .sldr-cnt-text p{
+  	font-size: 18px;
+  }
+   #service h1{
+   	font-size: 28px;
+   }
+   #service .s-content ul li p{
+   	font-size: 18px;
+   }
+	#s-content2 .s-text2 h1{
+    font-size: 27px;
+	}
+  
+	#service .s-img{
+    height: 400px
+    width: 200px;
+	}
+	#service .s-img img{
+   width: 100%;
+   padding: 50px  10px 0 0;
+	} 
+
+}
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+
+
+  .nav>li>a{
+  	padding: 15px 5px;
+  	font-size: 14px;
+  }
+
+  .sldr-cnt-text h1{
+  	font-size: 30px;
+  } 
+  .sldr-cnt-text p{
+  	font-size: 15px;
+  }
+   #service h1{
+   	font-size: 25px;
+   }
+   #service .s-content ul li p{
+   	font-size: 18px;
+   }
+	#s-content2 .s-text2 h1{
+    font-size: 18px;
+    font-weight: bold;
+	}
+  
+	#service .s-img{
+    height: 200px
+    width: 200px;
+	}
+	#service .s-img img{
+   width: 100%;
+   padding-top: 50px;
+   float: right;
+}
+   #contact input{
+   	margin-bottom: 5px;
+} 
+.entry img {
+	display: none;
+}
+.entry .entry-content{
+	margin: 10px;
+}
+
+}
+
+/* Extra Small Devices (iPhone ) */
+
+@media (max-width: 450px){
+    /* Testimonials */
+   .sldr-cnt-text h1{
+  	font-size: 28px;
+  } 
+  .sldr-cnt-text p{
+  	font-size: 12px;
+  }
+    .sldr-cnt-text a{
+  	font-size: 15px;
+  }
+  #service .s-img img {
+ display: none;
+  }
+#service .s-header h1 {
+    font-size: 35px;
+}
+   #service h1{
+   	font-size: 20px;
+
+   } 
+
+    #s-content2 .s-text1 {
+   	padding: 0;
+   }
+	.s-content2 .s-text1 strong {
+		font-size: 20px;
+	}
+	#service .s-content ul li i {	
+font-size: 15px;
+}
+   #service .s-content ul li p{
+   	font-size: 14px;
+   }
+	#s-content2 .s-text2 h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: -25px;
+
+	}
+
+
+#s-content2 .img {
+padding: 20px 10px;
+height: 100px;
+width: 100px;
+}
+#s-content2 .img2{
+	padding: 0 20px 0 0 ;
+}
+
+.curriculum .cur_content h1 {
+	font-size: 28px;
+}
+
+
+#e_learning h3{
+	font-size: 18px;
+}
+.entry h1{
+	font-size: 28px;
+}
+.entry .entry-form h2, h3{
+	font-size: 18px;
+	padding: 0;
+}
+.entry form{
+	padding-bottom: 20px;
+}
+.entry .form-group {
+    /* margin-bottom: 15px; */
+    margin-bottom: 0;
+}
+.entry .form-group .form-control{
+    /* margin-bottom: 15px; */
+    padding:  0;
+     margin-bottom: 0;
+}
+.entry .form-group .form-control {
+    /* margin-bottom: 15px; */
+     margin-bottom: 0px;
+}
+.entry .form-group textarea{
+    margin-top: 10px;
+  }
+  .entry .entry-form button{
+  	margin-top: 10px;
+  }
+}

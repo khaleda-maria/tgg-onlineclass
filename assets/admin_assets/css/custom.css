@@ -1,0 +1,351 @@
+
+
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ 
+ .bg-color{
+ 	 background-color: #149e8f;	
+ }
+
+
+.site-header .navbar{
+	padding: 5px 0px;
+}
+.site-header .manual_nav ul li .nav-entry:hover{
+
+ color: #149e8f;
+}
+.site-header .manual_nav .nav-entry{
+ background-color: #149e8f;	
+ color: black; 
+ padding: 17px 30px;
+ font-size: 20px;
+}
+
+
+/* ------==== Slider Index page ====------ */
+ #slider{
+     height: 100vh;
+     width: 100%;
+    background-image:url('../img/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 10;
+	
+}
+.sldr-cnt {
+	float: right;
+	color: #FFFFFF;
+	padding: 100px 50px 0px;
+}
+
+.sldr-cnt h1 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.sldr-cnt p {
+	font-size: 20px;
+	font-family:;
+	color: #149e8f;
+
+}
+.sldr-cnt a {
+	text-decoration: none;
+	background: yellow;
+	padding: 10px 25px;
+	color: #000;
+	font-size: 12px;
+	font-family: Aharoni;
+}
+
+#service{
+	padding: 80px 0px 20px;
+	background-color: #149e8f;
+}
+
+#service .s-content,  ul li {
+	color: white;
+	list-style: none;
+	margin-bottom: 5px;
+	text-align: left;
+
+	
+}
+#service .s-content ul li i {	
+font-size: 20px;
+}
+
+#service .s-content ul li p{
+	font-size: 25px;
+	color: white;
+	list-style: none;
+	display: inline;
+	margin-left:  10px;
+}
+
+
+#service h1{
+	padding-bottom: 20px;
+}
+.s-content2 .s_text {
+	padding-bottom: 50px;
+}
+
+#content {
+	background-color: #149e8f;
+}
+
+#content .s_img_2 img{
+  width: 100%;
+}
+
+#tuition {
+	background: #ebf5ee;
+	padding-top: 50px;
+}
+#tuition .tuition {
+	padding: 50px 0px;
+}
+#tuition .image img{
+	
+	width: 100%;
+	height: 100%;
+
+}
+
+/* ------==== Overview ====------ */
+.overview {
+	padding: 50px 0px;
+	color: black;
+	background-color: #e9ebec;
+}
+.overview h1{
+	
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.overview .over-col{
+	background-color: #c7e5e6;
+	border-radius: 10px;
+	padding: 10px;
+}
+.overview .over-content{
+	text-align: left;
+}
+.overview .over-content h4{
+	
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 20px;
+
+}
+.overview  .over-content ul li p {	
+    font-size: 20px;
+	color: black;
+	list-style: none;
+	display: inline;
+	margin-left:  10px;
+}
+.overview  .over-content ul li i {	
+    font-size: 20px;
+	color: #149e8f;
+
+}
+
+.overview .over-img {
+	width: 100%;
+	height: 300px;
+
+}.overview .over-img img{
+	width: 300px;
+	height: 200px;
+	float: right;
+	padding-bottom: 5px;
+	padding-right: 10px;
+
+}
+.overview .over-content-2 p{
+ padding: 20px 0px;
+ font-size: 20px;
+ text-align: left;
+
+}.overview .over-content-2 i{
+ padding: 20px 0px;
+ font-size: 100px;
+ color: #149e8f;
+}
+
+/* ------==== Curriculum ====------ */
+.curriculum {
+	background-color: ;	
+}
+.curriculum .cur_content h1{
+	color: #149e8f;
+	padding: 20px;
+}
+
+/* ------==== Entry ====------ */
+
+.entry {
+	 height: 180vh;
+     width: 100%;
+    background-image:url('../img/stuff-feature.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.entry h2{
+	padding: 0px 0px 20px 0px;
+	color: #5f5e5b;
+}
+.entry .entry-content{
+	padding: 65px 0px 50px 0px;
+}
+.entry .entry-form form h3{
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.entry .entry-form form{
+	background: #5f5e5b;
+	padding: 30px 50px;
+	border-radius: 10px;
+
+}
+
+.entry .entry-form .form-control{
+	background: transparent;
+	border: none;
+    outline: none;
+    border-bottom: 1px solid #149e8f;
+    margin-bottom: 15px;
+    padding: 20px 10px;
+    color:  #a9a5a1;
+
+}
+.entry .entry-form form input{
+    color:  white;
+
+}
+.entry .entry-form form textarea{
+    color:  white;
+
+}
+
+
+.entry .entry-form button{
+	background-color: #149e8f;
+	border: none;
+	text-align: center;
+	padding: 10px 30px;
+}
+.entry .entry-form form select{
+	width: 100%;
+	padding: 10px 10px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #149e8f;
+	color: #a9a5a1;
+}
+.entry .entry-form  option{
+	border: none;
+	background: #149e8f;
+	padding: 10px ;
+	color: black;
+}
+
+.ui-datepicker table{
+   background-color: #149e8f;
+   border: 1px solid #149e8f;
+   color: black;
+}
+
+/* ------==== Feature ====------ */
+
+.feature-image {	
+	display: table;
+	width: 100%;
+}
+
+.feature-image-default {
+	height: 38%;
+	background: url('../img/bg2.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.feature-image-default-alt {
+	background: url('../img/hipster-stuff.jpg') no-repeat;
+	background-size: cover;
+}
+
+
+#signup {
+	text-align: center;
+	background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+	background-size: cover;
+	color: white;
+	padding: 140px 0;
+}
+
+#signup h2 {
+	font-weight: normal;
+}
+
+#signup h2 strong {
+	border-bottom: solid 2px #dd5638;
+}
+
+#signup .btn {
+	font-size: 24px;
+	background-color: #149e8f;
+    color: white;
+}
+
+footer {
+	background: #3e4249;
+	color: white;
+	padding: 20px 0 10px;
+	font-size: 12px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a:link, footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #dd5638;
+}
+
+footer li.signup-link a {
+	color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+	font-weight: bold;
+}
+
+
+
+#contact ul li {
+	color: blue;
+}
+#qa {
+	padding: 50px 0px;
+}
+#myfooter #c_icons nav li a{
+	
+	color: black;
+}
+
