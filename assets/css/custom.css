@@ -164,11 +164,14 @@ font-size: 20px;
 }
 
 #s-content2 .img {
-height: 200px;
 width: 200px;
 }
+
 #s-content2 .img img{
 	width: 100%;
+}
+#s-content2 .img2{
+	padding-bottom: 20px;
 }
 #s-content2 .s-text2{
 	float: right;
