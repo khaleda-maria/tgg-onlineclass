@@ -25,11 +25,12 @@
 	#s-content2 .s-text2 h1{
     font-size: 27px;
 	}
-  
 	#service .s-img{
-    height: 400px
     width: 200px;
 	}
+	#s-content2 .img2{
+	padding-bottom: 20px;
+     }
 	#service .s-img img{
    width: 100%;
    padding: 50px  10px 0 0;
